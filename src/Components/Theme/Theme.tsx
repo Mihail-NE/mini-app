@@ -1,13 +1,28 @@
-import s from './Theme.module.scss';
+import { useState, useEffect } from "react";
+import s from "./Theme.module.scss";
+import MoonIcon from '../../assets/icon-moon';
+import SunIcon from "../../assets/icon-sun";
 
-interface ThemeProps {
-  children: React.ReactNode;
-}
+const Theme = () => {
+    const [isDark, setIsDark] = useState(false);
+    const text = isDark ? "Dark" : "Light";
+    const ThemeIcon = isDark ? SunIcon : MoonIcon;
 
-const Theme = ({ children }: ThemeProps ) => {
-  return (
-    <div className={s.theme}>{children}</div>
-  )
-}
+    const changeTheme = () => {
+        setIsDark((prev) => !prev);
+    };
 
-export default Theme
+    useEffect(() => {
+        document.body.setAttribute("data-theme", isDark ? "dark" : "light");
+    }, [isDark]);
+
+    return (
+        <div className={s.theme} onClick={changeTheme}>
+            <span>{text}</span>
+            <ThemeIcon className={s.icon}/>
+
+        </div>
+    );
+};
+
+export default Theme;
