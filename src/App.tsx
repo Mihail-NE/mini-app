@@ -1,12 +1,11 @@
-import Theme from "./components/Theme/Theme";
 import Container from "./components/Container/Container";
+import Header from "./components/Header/Header";
 
 
 function App() {
     return (
         <Container>
-            <h1>Hello</h1>
-            <Theme/>
+            <Header />
         </Container>
     );
 }

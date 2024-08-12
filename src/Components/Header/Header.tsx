@@ -1,13 +1,13 @@
-import s from './Header.module.scss';
+import Theme from "../Theme/Theme";
+import s from "./Header.module.scss";
 
-interface HeaderProps {
-  children: React.ReactNode;
-}
+const Header = () => {
+    return (
+        <div className={s.header}>
+            <div className={s.logo}>Finder</div>
+            <Theme />
+        </div>
+    );
+};
 
-const Header = ({ children }: HeaderProps ) => {
-  return (
-    <div className={s.header}>{children}</div>
-  )
-}
-
-export default Header
+export default Header;
