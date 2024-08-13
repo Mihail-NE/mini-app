@@ -6,6 +6,7 @@ const Header = () => {
         <div className={s.header}>
             <div className={s.logo}>Finder</div>
             <Theme />
+
         </div>
     );
 };
