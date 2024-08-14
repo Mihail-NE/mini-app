@@ -18,6 +18,7 @@ const Search = ({ hasError, onSubmit }: SearchProps) => {
         if (text) {
            onSubmit(text);
            (e.target as HTMLFormElement).search.value = "";
+
         }
     }
 
