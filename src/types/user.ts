@@ -1,13 +1,14 @@
-export type localUser = {
+export type LocalUser = {
     login: string;
     id: number;
+    node_id?: string;
     avatar: string;
     name: string;
     company: string;
     blog: string;
     location: string;
-    bio: string;
-    twitter: string;
+    bio: string | null;
+    twitter: string | null;
     repos: number;
     followers: number;
     following: number;
