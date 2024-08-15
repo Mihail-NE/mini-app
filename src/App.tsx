@@ -10,14 +10,7 @@ function App() {
             <Header />
             <Search hasError onSubmit={() => {}} />
             <Card
-                repos={defaultUser.repos}
-                followers={defaultUser.followers}
-                following={defaultUser.following}
-                login={defaultUser.login}
-                name={defaultUser.name}
-                created={defaultUser.created}
-                avatar={defaultUser.avatar}
-                bio={defaultUser.bio}
+                {...defaultUser}
             />
         </Container>
     );
