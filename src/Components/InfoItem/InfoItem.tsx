@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./InfoItem.module.scss";
 
-interface InfoItemProps {
+export interface InfoItemProps {
     icon: React.ReactNode;
     text?: string | null;
     isLink?: boolean;

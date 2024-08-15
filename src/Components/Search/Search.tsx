@@ -1,5 +1,5 @@
 import s from "./Search.module.scss";
-import SearchIcon from "../../assets/icon-search";
+import SearchIcon from "../../assets/IconSearch";
 
 import Button from "../Button/Button";
 

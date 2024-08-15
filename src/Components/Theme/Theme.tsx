@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import s from "./Theme.module.scss";
-import MoonIcon from '../../assets/icon-moon';
-import SunIcon from "../../assets/icon-sun";
+import MoonIcon from '../../assets/IconMoon';
+import SunIcon from "../../assets/IconSun";
 
 const Theme = () => {
     const [isDark, setIsDark] = useState(false);
