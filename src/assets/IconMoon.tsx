@@ -1,5 +1,6 @@
+import { IconClassName } from "../types/user";
 
-const MoonIcon = ({ className }) => {
+const MoonIcon = ({ className }: IconClassName) => {
     return (
         <div className={className}>
             <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">

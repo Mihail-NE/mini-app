@@ -1,4 +1,6 @@
-const SearchIcon = ({ className }) => {
+import { IconClassName } from "../types/user";
+
+const SearchIcon = ({ className }: IconClassName) => {
     return (
         <div className={className}>
             <svg height="24" width="25" xmlns="http://www.w3.org/2000/svg">

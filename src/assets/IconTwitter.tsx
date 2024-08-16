@@ -1,4 +1,6 @@
-const IconTwitter = ({ className }) => {
+import { IconClassName } from "../types/user";
+
+const IconTwitter = ({ className }: IconClassName) => {
     return (
         <div className={className}>
             <svg height="18" width="20" xmlns="http://www.w3.org/2000/svg">

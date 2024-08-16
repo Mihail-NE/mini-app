@@ -1,4 +1,6 @@
-const IconCompany = ({ className }) => {
+import { IconClassName } from "../types/user";
+
+const IconCompany = ({ className }: IconClassName) => {
     return (
         <div className={className}>
             <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">

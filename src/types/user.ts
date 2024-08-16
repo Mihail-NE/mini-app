@@ -36,3 +36,7 @@ export type NotFoundError = {
     message: string;
     documentation_url: string;
 };
+
+export type IconClassName = {
+    className?: string,
+}
