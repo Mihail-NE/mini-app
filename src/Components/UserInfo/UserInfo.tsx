@@ -9,7 +9,7 @@ interface UserInfoProps {
     blog: string;
     company: string;
     location: string;
-    twitter: string;
+    twitter: string | null;
 }
 
 const UserInfo = ({ blog, company, location, twitter }: UserInfoProps) => {

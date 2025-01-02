@@ -1,12 +1,12 @@
-import Card from "./components/Card/Card";
-import Container from "./components/Container/Container";
-import Header from "./components/Header/Header";
-import Search from "./components/Search/Search";
+import Card from "./Components/Card/Card";
+import Container from "./Components/Container/Container";
+import Header from "./Components/Header/Header";
+import Search from "./Components/Search/Search";
 import { defaultUser } from "./mock";
 import { useState } from "react";
 import { LocalUser, User } from "./types/user";
-import { extractUser } from "./components/utils/extract-user";
-import { isGithubUser } from "./components/utils/typeguards";
+import { extractUser } from "./Components/utils/extract-user";
+import { isGithubUser } from "./Components/utils/typeguards";
 
 const BASE_URL = "https://api.github.com/users/";
 

@@ -1,50 +1,52 @@
-# React + TypeScript + Vite
+# 🔍 GitHub User Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Веб-приложение для поиска и отображения информации о пользователях GitHub с современным адаптивным дизайном и поддержкой тёмной темы.
 
-Currently, two official plugins are available:
+## 🚀 Демо
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Проект развернут на GitHub Pages: [GitHub User Finder Demo](https://your-demo-url.com)
 
-## Expanding the ESLint configuration
+## ✨ Функциональность
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+🔎 **Поиск пользователей** - быстрый поиск по имени пользователя GitHub
 
-- Configure the top-level `parserOptions` property like this:
+👤 **Информация о пользователе:**
+- Аватар и основные данные
+- Статистика активности
+- Контактная информация
+- Ссылки на социальные сети
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+🌓 **Темы оформления:**
+- Светлая тема
+- Тёмная тема
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+📱 **Адаптивный дизайн:**
+- Мобильные устройства
+- Планшеты
+- Десктоп
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🛠️ Технологии
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite">
+  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SCSS">
+</div>
+
+## 🎯 Особенности реализации
+
+- ✅ TypeScript для типобезопасности
+- 🧩 Компонентный подход
+- 🪝 React Hooks
+- 🎨 Модульные SCSS стили
+- 📱 CSS Grid и Flexbox
+- 🌓 Темная/светлая тема
+- ⚠️ Обработка ошибок API
+
+## 📱 Адаптивный дизайн
+
+
+<div align="center">
+  <sub>Сделано с ❤️ для сообщества GitHub</sub>
+</div>
