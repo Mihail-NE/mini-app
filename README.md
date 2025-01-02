@@ -4,7 +4,7 @@
 
 ## 🚀 Демо
 
-Проект развернут на GitHub Pages: [GitHub User Finder Demo](https://your-demo-url.com)
+Проект развернут на GitHub Pages: [GitHub User Finder Demo](https://mihail-ne.github.io/finder-mini-app/)
 
 ## ✨ Функциональность
 
